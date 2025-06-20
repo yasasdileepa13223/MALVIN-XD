@@ -25,7 +25,7 @@ malvin({
     }
 
     // Remote version data
-    const repoRawURL = 'https://raw.githubusercontent.com/XdKing2/MALVIN-XD/main/data/version.json';
+    const repoRawURL = 'https://raw.githubusercontent.com//yasasdileepa13223/MALVIN-XD/main/data/version.json';
     let latestVersion = 'Unknown';
     let latestChangelog = 'Not available';
     try {
@@ -47,10 +47,10 @@ malvin({
 
     const updateStatus = localVersion !== latestVersion
       ? `🔄 *Update Available!*\n👉 *Current:* ${localVersion}\n👉 *Latest:* ${latestVersion}\n\nUse *.update* to upgrade.`
-      : `✅ Your MALVIN-XD bot is up-to-date!`;
+      : `✅ Your Dileepa Tech bot is up-to-date!`;
 
     const caption = `
-╭──〔 *MALVIN-XD STATUS* 〕─
+╭──〔 *Dileepa Tech STATUS* 〕─
 
 🧑‍💻 ᴜsᴇʀ: *${pushname}*
 📍 ʜᴏsᴛ: *${hostname}*
